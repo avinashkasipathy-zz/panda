@@ -1,0 +1,17 @@
+development:
+  adapter: postgresql
+  database: panda_development
+  pool: 5
+  host: pg
+  port: 5432
+  username: panda
+  password: cute
+
+test:
+  adapter: postgresql
+  database: panda_test
+  pool: 5
+  host: pg
+  port: 5432
+  username: panda
+  password: cute
